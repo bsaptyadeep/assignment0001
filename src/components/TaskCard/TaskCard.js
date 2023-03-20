@@ -30,20 +30,20 @@ const TaskCard = ({ task }) => {
             </div>
             <div className='third-line'>
                 {
-                    task.attachment?(
+                    task.attachment ? (
                         <div className='task-attachment'>
                             <img src={AttachmentIcon} height={16} alt="attachment icon" />
                             <p>{task.attachment}</p>
                         </div>
-                    ):(<div></div>)
+                    ) : (<div></div>)
                 }
                 {
-                    task.message?(
+                    task.message ? (
                         <div className='task-message'>
                             <img src={MessageIcon} height={16} alt="message icon" />
                             <p>{task.message}</p>
                         </div>
-                    ):(<div></div>)
+                    ) : (<div></div>)
                 }
             </div>
         </div >

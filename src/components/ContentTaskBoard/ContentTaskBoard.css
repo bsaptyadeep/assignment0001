@@ -14,3 +14,50 @@
 .active-blue{
     color: var(--primary500);
 }
+
+.pic-number{
+    height: 40px;
+    width: 40px;
+    color: var(--grey500);
+    background: #F2F4F7;
+    border-radius: 24px;
+    margin: 0px -30px;
+}
+
+.pic-number p{
+    margin: 10px;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.content-top-right-1{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.content-top-right-1 img{
+    position: absolute;
+}
+
+.ava2{
+    margin: 0px 30px 0px 0px;
+}
+
+.ava3{
+    margin: 0px 60px 0px 0px;
+}
+
+.ava4{
+    margin: 0px 90px 0px 0px;
+}
+
+.pic-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.pic-list img{
+    padding: 0px 0px 0px 37px;
+}
