@@ -1,0 +1,33 @@
+.right-sidebar{
+    border-left: 1px solid var(--grey60);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.right-sidebar-top{
+    padding: 27px;
+    height: 100px;
+}
+
+.right-sidebar-users{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .right-sidebar{
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .right-sidebar-users{
+        flex-direction: row;
+    }
+    .right-sidebar-top {
+        height: 13px;
+    }
+  }
+  

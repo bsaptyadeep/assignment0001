@@ -1,0 +1,16 @@
+.content-top-left h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.content-top-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.active-blue{
+    color: var(--primary500);
+}

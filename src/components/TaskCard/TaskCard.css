@@ -1,0 +1,116 @@
+.task-card {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0px 1px 3px rgba(96, 108, 128, 0.05);
+    border-radius: 8px;
+    margin: 16px 0px;
+}
+
+.first-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-line p {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.card-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.attachment-count {
+    font-weight: 800;
+    font-size: 10px;
+    color: var(--sky600);
+    margin: 0px 0px 0px 10px;
+}
+
+.second-line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.second-line p {
+    font-weight: 800;
+    font-size: 8px;
+    font-weight: 800;
+    font-size: 8px;
+    padding: 4px 8px;
+    border-radius: 24px;
+    margin: 12px 8px;
+}
+
+.card-color {
+    color: var(--grey500);
+    border: 1px solid var(--grey50);
+}
+
+.card-design {
+    color: var(--primary600);
+    background: rgba(59, 130, 246, 0.1);
+}
+
+.card-backlog {
+    color: var(--yellow600);
+    background: rgba(234, 179, 8, 0.1);
+}
+
+.card-development {
+    color: var(--pink600);
+    background: rgba(236, 72, 153, 0.1);
+}
+
+.card-project {
+    color: var(--grey500);
+    border: 1px solid var(--grey50);
+}
+
+.card-todo {
+    color: var(--pink600);
+    background: rgba(236, 72, 153, 0.1);
+}
+
+.card-in-process {
+    color: var(--purple600);
+    background: rgba(168, 85, 247, 0.1);
+}
+
+.card-done {
+    color: var(--green600);
+    background: rgba(34, 197, 94, 0.1);
+}
+
+.task-message,
+.task-attachment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 50px;;
+}
+
+.task-message p,
+.task-attachment p{
+    font-weight: 800;
+    font-size: 10px;
+}
+
+.task-message p{
+    color: var(--bronze600);
+}
+
+.task-attachment p{
+    color: var(--purple600);
+}
+
+.third-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

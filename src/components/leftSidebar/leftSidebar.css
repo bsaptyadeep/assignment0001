@@ -1,0 +1,28 @@
+.left-sidebar {
+    width: 300px;
+    border-right: 1px solid var(--grey60);
+}
+
+.left-sidebar-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--grey60);
+    padding: 24px;
+}
+
+.left-sidebar-head img {
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
+.left-sidebar-content {
+    margin: 32px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .left-sidebar {
+        width: 100%;
+    }
+}

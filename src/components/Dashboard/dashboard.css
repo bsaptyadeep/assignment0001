@@ -1,0 +1,20 @@
+.dashboard-head p{
+    font-size: 12px;
+    color: var(--grey300);
+}
+
+.dashboard-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 32px 0px;
+}
+
+.dashboard-head img{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.dashboard{
+    border-bottom: 1px solid var(--grey60);
+}
