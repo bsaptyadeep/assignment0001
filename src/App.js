@@ -3,7 +3,6 @@ import LeftSidebar from './components/leftSidebar/leftSidebar';
 import Content from './components/content/Content';
 import RigthSidebar from './components/rightSidebar/rigthSidebar';
 
-function App() {
   return (
     <div className="App">
       <LeftSidebar />
