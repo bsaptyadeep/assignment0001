@@ -14,25 +14,7 @@
   --primary600: #2563EB;
   --sky600: #17A5E6;
   --pink600: #DB2777;
-  --purple600: #9333EA;
-  --bronze600: #D97706;
-  --green600: #16A34A;
-}
-
-.App{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  background: #F7F8FA;
-}
-
-p{
-  font-size: 20px;
-  font-weight: 700;
-}
-
-img{
-  cursor: pointer;
+  
 }
 
 @media only screen and (max-width: 1200px) {
